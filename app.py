@@ -15,7 +15,7 @@ def home():
 @app.route('/health')
 def health_check():
     return jsonify({
-        'status': 'healthy',
+        'status': '200',
         'message': 'Server is running'
     })
 
